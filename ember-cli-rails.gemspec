@@ -9,9 +9,4 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://github.com/rwz/ember-cli-rails"
   spec.license  = "MIT"
   spec.files    = Dir["README.md", "CHANGELOG.md", "LICENSE.txt", "{lib,app,config}/**/*"]
-
-  spec.required_ruby_version = ">= 1.9.3"
-
-  spec.add_dependency "railties", ">= 3.1", "< 6.1"
-  spec.add_dependency "sprockets", ">= 2.0"
 end
